@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Try our Coffee"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_image_main.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured Our Best 💖",
+        "collection": "coffee",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1630061299e9ab9669": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Read our articles",
+        "blog": "news",
+        "post_limit": 3,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "soft_background": false,
+        "show_view_all": true
+      }
+    },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee Club"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product_pack-w.png",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "1630061646ab54a029": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/Roasting-video.jpg",
+        "video_url": "https:\/\/player.vimeo.com\/video\/582023095?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "description": "",
+        "full_width": false
+      }
+    },
+    "163006857421d64ec1": {
+      "type": "collage",
+      "blocks": {
+        "163006857421d64ec1-1": {
+          "type": "product",
+          "settings": {
+            "product": "coffee-vietnam",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "0cb10495-a1af-4086-8525-ddcf0e3b4a59": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.png",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "f052f3e2-787d-468a-843d-777a41c12050": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collage-section.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "163006857421d64ec1-1",
+        "0cb10495-a1af-4086-8525-ddcf0e3b4a59",
+        "f052f3e2-787d-468a-843d-777a41c12050"
+      ],
+      "settings": {
+        "heading": "Coffee of the Month ⭐️",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "163094012902c29457": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "fdf85adc-937c-4745-90f3-e8aadb792676": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/7.jpg",
+            "testimonial-text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae ipsa dolorum repellendus vero animi eius quibusdam architecto molestiae <\/p>",
+            "testimonial-name": "Michael White"
+          }
+        },
+        "47c275b1-0889-47c3-8601-f4211f912167": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/9.jpg",
+            "testimonial-text": "<p>corrupti voluptates quia nisi autem fugiat aperiam modi nam sint beatae ad odit ipsum non, distinctio perferendis, laudantium eaque laborum dolor!<\/p>",
+            "testimonial-name": "Jeff Kelly"
+          }
+        },
+        "91a6035d-7ad8-4f1f-a951-5b6fb468989e": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/8.jpg",
+            "testimonial-text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum repudiandae ipsa dolorum repellendus vero animi eius quibusdam architecto molestiae <\/p>",
+            "testimonial-name": "David Hill"
+          }
+        },
+        "46318f95-23b7-494b-91d7-35ebd95214fb": {
+          "type": "testimonial",
+          "settings": {
+            "testimonial-image": "shopify:\/\/shop_images\/10.jpg",
+            "testimonial-text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A corrupti voluptates quia nisi autem fugiat aperiam modi nam sint beatae ad odit ipsum non, distinctio <\/p>",
+            "testimonial-name": "Mohammed Kareem"
+          }
+        }
+      },
+      "block_order": [
+        "fdf85adc-937c-4745-90f3-e8aadb792676",
+        "47c275b1-0889-47c3-8601-f4211f912167",
+        "91a6035d-7ad8-4f1f-a951-5b6fb468989e",
+        "46318f95-23b7-494b-91d7-35ebd95214fb"
+      ],
+      "settings": {
+        "testimonial": "Read our Testimonials"
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_products",
+    "1630061299e9ab9669",
+    "image_text",
+    "1630061646ab54a029",
+    "163006857421d64ec1",
+    "163094012902c29457"
+  ]
+}

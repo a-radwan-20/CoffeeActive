@@ -1,0 +1,63 @@
+<div class="collage-wrapper page-width">
+    <br>
+    <h2 class="collage-wrapper-title">{{ section.settings.testimonial }}</h2>
+</div>
+<div class="testimonial-slides cen page-width">
+
+    {% for block in section.blocks %}
+    <div class="testimonial-card ">
+        <div class="testimonial-icon">
+            {% render 'icon-testimonial' %}
+        </div>
+        <div class="testimonial-text cen">
+            {{block.settings.testimonial-text}}
+        </div>
+        <div class="testimonial-image cen">
+            <img src={{block.settings.testimonial-image | img_url: '300x'}} alt="person profile"/>
+        </div>
+        <div class="testimonial-name cen"> {{block.settings.testimonial-name}} </div>
+    </div>
+    {% endfor %}
+</div>
+
+{% schema %}
+{
+    
+    "name": "testimonial-slider",
+    "settings": [
+    {
+        "type": "text",
+        "id": "testimonial",
+        "label": "testimonial"
+    }
+    ],
+    "blocks": [
+    {
+                "type": "testimonial",
+                "name": "testimonial",
+                "settings": [
+                {
+                    "id": "testimonial-image",
+                    "type": "image_picker",
+                    "label": "testimonial-image"
+                },
+                {
+                    "id": "testimonial-text",
+                    "type": "richtext",
+                    "label": "testimonial-text"
+                },
+                {
+                    "id": "testimonial-name",
+                    "type": "text",
+                    "label": "testimonial-name"
+                }]
+    }
+    ],
+    "presets": [
+    {
+        "name": "testimonials"
+    }
+    ]
+
+}
+{% endschema %}

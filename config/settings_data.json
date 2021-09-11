@@ -1,0 +1,81 @@
+{
+  "current": {
+    "colors_accent_1": "#79350f",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
+    "social_pinterest_link": "https:\/\/pinterest.com\/shopify",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
+    "social_tiktok_link": "",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Coffee Time ☕️",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/Copy_of_coffee.png",
+          "logo_width": 240,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Navigation",
+              "menu": "main-menu"
+            }
+          },
+          "1b593a8f-4b40-4592-8c7e-e6016d571c28": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Info",
+              "menu": "footer"
+            }
+          },
+          "86a4dda4-f99b-4125-a14a-858e98c38906": {
+            "type": "text",
+            "settings": {
+              "heading": "Coffee Active",
+              "subtext": "<p>📍 845 Saint Marys Avenue SHELBY, NC.<\/p><p>📧 info@coffeeactive.com<\/p><p>☏ 315-774-6640<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "1b593a8f-4b40-4592-8c7e-e6016d571c28",
+          "86a4dda4-f99b-4125-a14a-858e98c38906"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Coffee Fans - Sign up now 💖 💖",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      }
+    },
+    "content_for_index": []
+  }
+}

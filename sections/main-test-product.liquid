@@ -1,0 +1,70 @@
+<br>
+Hello from the section file
+<br>
+
+<img src="{{ product.featured_image | img_url: '500px' }}" alt="">
+{{ product.title }}
+<h4>{{ section.settings.tax }}</h4>
+<h4>{{ section.settings.tax-notice }}</h4>
+
+{% for block in section.blocks %}
+    {%case block.type %}   
+    {% when "tax-notice-blk" %}
+        <h4>{{ block.settings.tax-notice-text }}</h4>
+    {% when "shipping-notice-blk" %}
+        <h4>{{ block.settings.shipping-notice-text }}</h4>
+    {% when "priduct-price-blk" %}
+        <h4>{{ product.price }}</h4>
+
+    {% endcase %}
+{% endfor %}
+
+{% if section.settings.reviews %}
+<h1>⭐⭐⭐⭐⭐</h1>
+{% endif %}
+ 
+{% schema %}
+{
+    "name": "product content page",
+    "settings": [
+    {
+        "id": "reviews",
+        "label": "Show Review",
+        "type": "checkbox"
+    }
+    ],
+    "blocks": [
+    {
+        "type": "tax-notice-blk",
+        "name": "Tax Notice Block",
+        "limit": 1,
+        "settings": [
+        {
+            "id": "tax-notice-text",
+            "label": "Enter Tax Notice",
+            "type": "text"
+        }
+        ]
+    },
+    {
+        "type": "shipping-notice-blk",
+        "name": "Shipping Notice Block",
+        "limit": 1,
+        "settings": [
+        {
+            "id": "shipping-notice-text",
+            "label": "Enter Shipping Notice",
+            "type": "text"
+        }
+        ]
+    },
+    {
+        "type": "product-price-blk",
+        "name": "product price",
+        "limit": 1,
+        "settings": []
+
+    }    
+    ]
+}
+{% endschema %}
