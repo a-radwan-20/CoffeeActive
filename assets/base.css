@@ -2146,3 +2146,15 @@ details-disclosure > details {
 .cen {
   text-align: center;
 }
+.coffee_info{
+  width: 100%;
+}
+.coffee_icon{
+display: flex;
+}
+.coffee_icon svg{
+  max-height: 35px;
+  max-width: 35px;
+  margin-bottom:10px;
+  margin-top: 10px;
+  }
